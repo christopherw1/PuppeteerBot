@@ -1,0 +1,25 @@
+{
+  "name": "puppeteerbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christopherw1/PuppeteerBot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christopherw1/PuppeteerBot/issues"
+  },
+  "homepage": "https://github.com/christopherw1/PuppeteerBot#readme",
+  "dependencies": {
+    "@types/puppeteer": "^5.4.6",
+    "puppeteer": "^14.1.2",
+    "ts-node": "^10.8.0"
+  }
+}
